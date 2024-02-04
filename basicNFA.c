@@ -66,7 +66,7 @@ int main() {
     char userString[100]; // Assuming a maximum input size of 100 characters
 
     // Prompt the user for input
-    printf("Enter a string: ");
+    printf("Enter a string ending with 01: ");
     scanf("%s", userString);
 
     // Validate input and test the NFA
